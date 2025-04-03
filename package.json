@@ -1,7 +1,7 @@
 {
   "name": "ip2_leaderboard",
-  "version": "1.0.0",
-  "description": "A server that fetches rankings and saves them to a JSON file.",
+  "version": "1.0.1",
+  "description": "A server that fetches rankings, merges duplicate users, and saves them to a JSON file.",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",

@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    color: white;
+}
+
+table {
+    width: 100%; /* Use full width of the container */
+    max-width: 1200px; /* Optional: Limit the maximum width */
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: black;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+    color: white;
+    table-layout: auto; /* Allow columns to adjust based on content */
+    overflow-x: auto; /* Allow horizontal scrolling on smaller screens */
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #dee2e6;
+    text-align: left;
+    word-wrap: break-word; /* Break words if they are too long */
+}
+
+th {
+    background: purple;
+    color: white;
+}
+
+td a {
+    color: white;
+    text-decoration: none; /* Remove underline from links */
+}
+
+td a:hover {
+    text-decoration: none; /* Ensure no underline on hover */
+}
+
+tr:nth-child(even) {
+    background: #2b2b2b; /* Set background color for even rows */
+}
+
+tr:nth-child(odd) {
+    background: #4A4A4A; /* Set background color for odd rows */
+}
+
+/* Add responsiveness for smaller screens */
+@media (max-width: 768px) {
+    table {
+        width: 100%;
+        display: block; /* Make the table scrollable horizontally */
+        overflow-x: auto;
+    }
+}

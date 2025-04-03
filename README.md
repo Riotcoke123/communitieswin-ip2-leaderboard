@@ -4,43 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Communities.win/IP2 Leaderboard</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 20px;
-            color: #333;
-            background-color: #f4f4f4;
-        }
-        h1, h2 {
-            color: #4CAF50;
-        }
-        h3 {
-            color: #333;
-        }
-        p {
-            font-size: 1.1em;
-        }
-        code {
-            background-color: #f7f7f7;
-            padding: 2px 4px;
-            border-radius: 4px;
-        }
-        pre {
-            background-color: #f7f7f7;
-            padding: 10px;
-            border-radius: 4px;
-            overflow-x: auto;
-        }
-        ul {
-            list-style-type: none;
-            padding-left: 20px;
-        }
-        li {
-            padding: 5px 0;
-        }
-    </style>
+    
 </head>
 <body>
     <h1>Communities.win/IP2 Leaderboard</h1>

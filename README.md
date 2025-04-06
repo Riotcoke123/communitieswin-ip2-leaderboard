@@ -7,6 +7,7 @@
     
 </head>
 <body>
+<img src="https://github.com/user-attachments/assets/8caa588b-a933-4388-9d97-1d4e13dbdbd9" alt="scored-logo" style="max-width: 100px;">
     <h1>Communities.win/IP2 Leaderboard</h1>
     <p>This project fetches and displays the leaderboard for the <a href="https://communities.win/" target="_blank">Communities.win</a> / IP2 community. It retrieves data from the <code>newv2.json</code> API, processes the rankings, and provides an endpoint to retrieve these rankings in JSON format.</p>
     <h2>Features</h2>
